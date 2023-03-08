@@ -27,6 +27,10 @@ make build
 
 接下来您可以通过 Lambda 函数控制台将部署包上传到 Lambda 函数中。
 
+确保运行时设置中的"处理程序"名称为 main 。
+
+![](./Snipaste_2023-03-08_13-12-35.png)
+
 您也可以使用 AWS CLI 将部署包上传到 Lambda 函数中：
 
 ``` bash
