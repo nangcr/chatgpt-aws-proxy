@@ -4,9 +4,11 @@
 [![License MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/nangcr/chatgpt-aws-proxy/master/LICENSE)
 [![Go Doc](https://img.shields.io/badge/godoc-reference-blue.svg?style=flat-square)](https://godoc.org/github.com/nangcr/chatgpt-aws-proxy)
 
-本项目是一个 AWS Lambda 函数，用于将 HTTP 请求转发到 OpenAI 的 ChatGPT API。本项目的代码使用 Go 语言编写。
+本项目是一个 AWS Lambda 函数，用于将 HTTP 请求转发到 OpenAI 的 ChatGPT API。本项目的代码使用 Go 语言编写，亦可部署到任意 VPS 上。
 
 ## 用法
+要想自行编译部署到 VPS 上，请修改主函数最后一行的启动命令，并确保编译到正确的目标平台。
+
 要部署此 Lambda 函数，可以直接下载编译好的部署包，或是参考以下步骤自行编译：
 
 ### 构建部署包
